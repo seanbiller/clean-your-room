@@ -41,6 +41,7 @@ module.exports.calculateProductPrice = function (product, employee, coverageLeve
       return calculateLTD (product, price, employee)
       
     default: 
+// Code Orginally Failed because I put the default in a function, default is meant to be used with "switch" statement   
   return 0
   }
 }
